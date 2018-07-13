@@ -19,6 +19,7 @@ import java.io.IOException;
 	* <a href="https://github.com/spring-gradle-plugins/rewrite-gradle">the Rewrite Gradle plugin</a>.
 	*
 	* @author <a href="mailto:josh@joshlong.com">Josh Long</a>
+	*
 	*/
 @Mojo(name = "rewrite", defaultPhase = LifecyclePhase.PROCESS_SOURCES)
 public class RewriteMojo extends AbstractMojo {
